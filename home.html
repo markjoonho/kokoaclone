@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lnag="eng">
+  <head>
+    <link rel="shortcut icon" href="img/joonho.jpg" />
+    <title>Home - Joonho's First Website</title>
+    <meta name="description" content="This is my website" />
+    <meta charset="utf-8" />
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <h1 href="www.naver.com">Hello this is my website</h1>
+    </header>
+
+    <main>
+      <form>
+        <label for="profile">Profile Photo</label>
+        <input id="profile" type="file" accept="image/*" />
+        <div id="name">
+          <label for="First Name">First Name</label>
+          <input required placeholder="First Name" type="text" />
+          <label for="Last Name">Last Name</label>
+          <input required placeholder="Last Name" type="text" />
+        </div>
+
+        <div>
+          <label for="User Name">User Name</label>
+          <input required placeholder="User Name" type="text" />
+          <label for="Password">Password</label>
+          <input
+            required
+            placeholder="Password"
+            minlength="10"
+            type="Password"
+          />
+        </div>
+
+        <label for="email"> Email Address</label>
+        <input id="email" required placeholder="Email" type="email" />
+        <input type="submit" value="Create Account" />
+      </form>
+      <a href="http://google.com" target="_blnak">Go to Google</a>
+      <img src="img/joonho.jpg" />
+      <p>Hello My name is <abbr title="Joonho Lee"> Mark </abbr></p>
+      <pre>Hello lalalalal</pre>
+    </main>
+
+    <footer>
+      <a href="https://naver.com"> <span class="icon friend">f</span></a>
+      <span class="icon chat">c</span>
+      <span class="icon hash">h</span>
+      <span class="icon more">m</span>
+
+      <div id="copyright">&copy; 2020 by Joonho Lee</div>
+      <address>250 albert st</address>
+    </footer>
+  </body>
+</html>
