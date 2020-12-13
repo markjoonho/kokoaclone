@@ -4,7 +4,7 @@
     <link href="css/styles.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats Page KakaoTalk Clone</title>
+    <title>More Page KakaoTalk Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -22,34 +22,73 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span>
+          <a href="setting.html"><i class="fas fa-cog fa-lg"></i> </a>
+        </span>
       </div>
     </header>
 
-    <main class="main-screen">
-      <a href ="chat.html">
-        <div class="user-component">
+    <main class="main-screen more-screen">
+      <div class="user-component">
         <div class="user-component__column">
           <img
             src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s320x320/125236190_3741635072547812_724001923462374608_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=ZpclN_OpuJkAX9Mh6Ks&tp=1&oh=4525503cbefb9034905e01d694527638&oe=5FDFB03C"
-            class="user-component__avatar user-component__avatar"
+            class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">Girl Friend</h4>
-            <h6 class="user-component__subtitle">Please check my message.</h6>
+            <h4 class="user-component__title">Joonho</h4>
+            <h6 class="user-component__subtitle">+82 10-2256-2945</h6>
           </div>
         </div>
         <div class="user-component__column">
-            <span class = "user-component__time"> 18:42</span>
-            <span class = "badge"> 1</span>
+          <i class="far fa-comment-alt fa-2x"></i>
         </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar"></i>
+          <span>Calendar</span>
         </div>
-      </a>
+        <div class="icon-row__icon">
+          <i class="far fa-smile-beam"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice-dollar"></i>
+          <span>Account</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggestions__icon-text">Kokoa Story</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggestions__icon-text">Kokoa Story</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggestions__icon-text">Kokoa Story</span>
+          </div>
+        </div>
+      </div>
     </main>
 
     <nav class="nav">
@@ -62,7 +101,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fas fa-comment fa-2x"></i
+            <i class="far fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
