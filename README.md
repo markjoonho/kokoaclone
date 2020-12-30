@@ -6,11 +6,7 @@ Project URL: <https://www.joonho.dev/kokoaclone>
 
 Cloning the Koreans' famous chatting application **KAKAO TALK**.
 
-I've learned through [Nomad Coders](https://nomadcoders.co/).
-
-This was the final project.
-
-Cloning following images.
+I've learned through [Nomad Coders](https://nomadcoders.co/). This was the final project. Cloned following images.
 
 <img src = "/img/kokoa/01.png" width=200px>
 
